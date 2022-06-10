@@ -36,4 +36,17 @@
 ### flask 서버에선 post 방식으로 이미지를 받아서 디렉토리에 저장한다. 그리고 분석을 시작(predict()가 분석 시작 메소드)
 <img width="452" alt="스크린샷 2022-06-10 오후 2 03 09" src="https://user-images.githubusercontent.com/83891837/172993869-8a9c77dc-3895-401d-99b9-cc159ccd832a.png">
 
-### result/predict에 결과.jpg 와 결과.json파일이 
+### result/predict에 결과.jpg 와 결과.json파일이 생성된다. 
+- 이미지는 생성되자마자 S3에 업로드하고 받아온 url은 .json 파일에 추가하여 작성한다.
+
+<img width="745" alt="스크린샷 2022-06-10 오후 2 07 38" src="https://user-images.githubusercontent.com/83891837/172994330-6c8efb1b-69ad-4352-bef7-2cdd928c6bab.png">
+<img width="835" alt="스크린샷 2022-06-10 오후 2 06 20" src="https://user-images.githubusercontent.com/83891837/172994201-21257ff4-8624-473b-8f36-fb5ea646e7d1.png">
+
+### 저장된 .json 파일을 Flask에서 읽어서 jsonify를 이용해 json 형식으로 값을 리턴해준다.
+<img width="524" alt="스크린샷 2022-06-10 오후 2 08 08" src="https://user-images.githubusercontent.com/83891837/172994369-6fb4a0f3-400b-4957-9602-2fa0e4d8d7a1.png">
+
+### 반환받은 결과를 DB에 저장하고 안드로이드에게 리턴해주면 끝
+<img width="879" alt="스크린샷 2022-06-10 오후 2 09 17" src="https://user-images.githubusercontent.com/83891837/172994509-7449901b-75bc-48af-9ed5-222d58314243.png">
+
+### 리턴해준 결과
+<img width="743" alt="스크린샷 2022-06-10 오후 2 10 03" src="https://user-images.githubusercontent.com/83891837/172994601-767399ef-3a56-4260-9844-bfb62b81c4c6.png">
