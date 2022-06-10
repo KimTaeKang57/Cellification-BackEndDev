@@ -55,5 +55,5 @@
 
 ### 결과 UI
 
-<img width="450" alt="스크린샷 2022-06-10 오후 2 12 01" src="https://user-images.githubusercontent.com/83891837/172994823-610bb7fa-8ad4-4abf-beb8-546ad66203a3.png"><img width="225" alt="스크린샷 2022-06-10 오후 2 12 09" src="https://user-images.githubusercontent.com/83891837/172994840-f9e612fa-0822-4bec-a0d6-4de281a6554e.png">
+<img width="225" alt="스크린샷 2022-06-10 오후 2 12 01" src="https://user-images.githubusercontent.com/83891837/172994823-610bb7fa-8ad4-4abf-beb8-546ad66203a3.png"><img width="225" alt="스크린샷 2022-06-10 오후 2 12 09" src="https://user-images.githubusercontent.com/83891837/172994840-f9e612fa-0822-4bec-a0d6-4de281a6554e.png">
 
