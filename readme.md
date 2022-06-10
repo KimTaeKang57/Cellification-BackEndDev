@@ -16,11 +16,13 @@
 <img width="389" alt="스크린샷 2022-06-10 오후 12 56 24" src="https://user-images.githubusercontent.com/83891837/172987304-a9885c07-b101-45fa-bb5c-11e3e2a56cd9.png">
 
 02. 이미지 업로드, 분석결과
-<img width="132" alt="스크린샷 2022-06-10 오후 12 57 02" src="https://user-images.githubusercontent.com/83891837/172987368-b42e5d5a-f13b-4dd0-ba0b-7bb407990e72.png">
-<img width="384" alt="스크린샷 2022-06-10 오후 12 57 13" src="https://user-images.githubusercontent.com/83891837/172987389-96dfb51b-0238-44c7-9aa5-450ecadc42ef.png">
+<img width="449" alt="스크린샷 2022-06-10 오후 2 16 36" src="https://user-images.githubusercontent.com/83891837/172995263-37476d2e-d13b-45f3-b800-63ff81e1602d.png">
+<img width="449" alt="스크린샷 2022-06-10 오후 2 17 04" src="https://user-images.githubusercontent.com/83891837/172995322-a6b422e9-e7ef-4303-a8db-928fae92d7c6.png">
+<img width="449" alt="스크린샷 2022-06-10 오후 2 17 29" src="https://user-images.githubusercontent.com/83891837/172995374-b7d0af21-bfb1-478e-a85c-fe6662914e0f.png">
 
 03. DB, 내부 저장소에서 결과 관리
-<img width="128" alt="스크린샷 2022-06-10 오후 12 57 43" src="https://user-images.githubusercontent.com/83891837/172987444-525eca7a-4018-4c99-a438-673ce36567a4.png">
+<img width="449" alt="스크린샷 2022-06-10 오후 2 17 53" src="https://user-images.githubusercontent.com/83891837/172995421-c29ccdd7-d513-4353-9869-5d9a5cff9986.png">
+
 
 # 개발 - 기능 및 문제해결
 
