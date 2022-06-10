@@ -10,3 +10,15 @@
 |조수빈(PM), 김태강| 백엔드 | Spring frameworks, AWS s3, Naver Cloud Platform, Flask
 |김민종, 박준후| 안드로이드 | 안드로이드 애플리케이션 (Kotlin)
 |한동현| Object Detection | YoLo, torch
+
+# 애플리케이션 구성
+01. Welcome, 로그인/회원가입
+<img width="389" alt="스크린샷 2022-06-10 오후 12 56 24" src="https://user-images.githubusercontent.com/83891837/172987304-a9885c07-b101-45fa-bb5c-11e3e2a56cd9.png">
+
+02. 이미지 업로드, 분석결과
+<img width="132" alt="스크린샷 2022-06-10 오후 12 57 02" src="https://user-images.githubusercontent.com/83891837/172987368-b42e5d5a-f13b-4dd0-ba0b-7bb407990e72.png">
+<img width="384" alt="스크린샷 2022-06-10 오후 12 57 13" src="https://user-images.githubusercontent.com/83891837/172987389-96dfb51b-0238-44c7-9aa5-450ecadc42ef.png">
+
+03. DB, 내부 저장소에서 결과 관리
+<img width="128" alt="스크린샷 2022-06-10 오후 12 57 43" src="https://user-images.githubusercontent.com/83891837/172987444-525eca7a-4018-4c99-a438-673ce36567a4.png">
+
