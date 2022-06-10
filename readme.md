@@ -22,3 +22,5 @@
 03. DB, 내부 저장소에서 결과 관리
 <img width="128" alt="스크린샷 2022-06-10 오후 12 57 43" src="https://user-images.githubusercontent.com/83891837/172987444-525eca7a-4018-4c99-a438-673ce36567a4.png">
 
+# 기술 스택
+<img width="669" alt="스크린샷 2022-06-10 오후 12 59 39" src="https://user-images.githubusercontent.com/83891837/172987671-2653a723-5da7-472e-8c38-8795e2124369.png">
