@@ -1,1 +1,9 @@
+# AWS EC2
+
+Local에서 작동이 잘 되는지 확인 하고 서비스들을 하나하나 Docker image로 만들어 Docker hub에 push하여 run 하여 Container화 시켰다.
+우리 Cellification은 마이크로서비스 아키텍처 기능을 사용해 개발을 진행하였는데, Local로 진행하였을 때는 같은 network 상이어서 문제없이 통신이 이루어졌지만 Docker Container들 끼리의 
+네트워크 통신이 이루어지지 않았다. 그래서 서버안에서 자체적으로 network를 만들어 프로젝트들간 네트워크 통신을 하였다.
+
+### network 이름 : ecommerce-network. 
+- 현재 network에 연결되어있는 마이크로서비스 아키텍처들
 
