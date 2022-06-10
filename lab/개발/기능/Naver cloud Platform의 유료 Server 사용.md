@@ -5,5 +5,6 @@ Local에서 작동이 잘 되는지 확인 하고 서비스들을 하나하나 D
 네트워크 통신이 이루어지지 않았다. 그래서 서버안에서 자체적으로 network를 만들어 프로젝트들간 네트워크 통신을 하였다.
 
 ### network 이름 : ecommerce-network. 
-- 현재 network에 연결되어있는 마이크로서비스 아키텍처들
+- 현재 network에 연결되어있는 마이크로서비스 아키텍처들 (명령어 : docker inspect network ecommerce-network)
 
+<img width="727" alt="스크린샷 2022-06-10 오후 1 31 12" src="https://user-images.githubusercontent.com/83891837/172990665-94eb2081-738f-44b0-be7c-50f521edd7d0.png">
