@@ -7,6 +7,6 @@
 # 팀원
 | 팀원 | 역할 | 개발환경 
 |-----|-----|--------
-|김태강, 조수빈| 백엔드 | Spring frameworks, AWS s3, Naver Cloud Platform, Flask
+|조수빈(PM), 김태강| 백엔드 | Spring frameworks, AWS s3, Naver Cloud Platform, Flask
 |김민종, 박준후| 안드로이드 | 안드로이드 애플리케이션 (Kotlin)
 |한동현| Object Detection | YoLo, torch
