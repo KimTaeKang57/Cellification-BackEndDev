@@ -25,5 +25,5 @@
 ### JWT 처리과정 5에 해당한다.(Apigateway-service)
 <img width="690" alt="스크린샷 2022-06-10 오후 1 13 07" src="https://user-images.githubusercontent.com/83891837/172988957-eb209ce6-d742-4d28-8ee6-94288cfbfc48.png">
 
-- 마지막으로 Client가 실어준 토큰을 디코딩하여 비교하고 인증여부를 확인한다.
+- 마지막으로 Client가 실어준 토큰을 디코딩하여 비교하고 인증여부를 확인한다.(200OK와 함께 인증완료!)
 <img width="620" alt="스크린샷 2022-06-10 오후 1 13 46" src="https://user-images.githubusercontent.com/83891837/172989023-f6f1e337-7d8b-41c0-a4c7-f70516ff6ef8.png">
