@@ -27,6 +27,7 @@
 - 그래서 처음에 하기로 했던 방법을 갈아엎고 다시 고안했다.
 
 1.2.3 까지는 동일하다..
+
 4. Cell-service로 결과 이미지를 보내지 않고 그냥 Flask서버에서 AWS S3에 이미지를 업로드하고 url을 받아온다. 그리고 .json 파일에 url도 추가하여 작성하고, Flask 서버에서 .json 파일을 읽어 jsonify를 사용하여 json 형식으로 Cell-service에 반환해준다. Cell-service에서 Flask서버와 Rest Template 방식으로 통신을 하기 때문에 가능한 일이었다.
 
 5. Cell-service에선 리턴받은 결과를 안드로이드, DB에 각각 보낸다!!
