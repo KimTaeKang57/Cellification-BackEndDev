@@ -22,3 +22,18 @@
 ### 4번에서 문제가 발생하였다. 
 - 원래 코드는 Flask 프로젝트에 저장된 이미지와 .json 파일을 Cell-service에서 파일을 읽어서 결과를 알아오는 방식이었는데, Container로 올린순간 각자 다른 공간이 되었기 때문에, 파일을 읽어올수가 없었던 것이다..
 - 이때쯤 Naver Cloud Platform으로 옮겼을 때이고, 또 문제가 발생하여 실망했지만 한편으론 인공지능을 돌렸을때 서버가 죽지는 않는다는 사실에 안도했다.
+
+# 문제 해결
+- 그래서 처음에 하기로 했던 방법을 갈아엎고 다시 고안했다.
+
+1.2.3 까지는 동일하다..
+4. Cell-service로 결과 이미지를 보내지 않고 그냥 Flask서버에서 AWS S3에 이미지를 업로드하고 url을 받아온다. 그리고 .json 파일에 url도 추가하여 작성하고, Flask 서버에서 .json 파일을 읽어 jsonify를 사용하여 json 형식으로 Cell-service에 반환해준다. Cell-service에서 Flask서버와 Rest Template 방식으로 통신을 하기 때문에 가능한 일이었다.
+5. Cell-service에선 리턴받은 결과를 안드로이드, DB에 각각 보낸다!!
+
+### Rest Template을 사용하여 Multipartfile로 이미지를 Cell-service에서 Flask로 보낸다.
+<img width="1080" alt="스크린샷 2022-06-10 오후 2 02 17" src="https://user-images.githubusercontent.com/83891837/172993786-532cb945-0f94-4047-8eef-ca6e897929f6.png">
+
+### flask 서버에선 post 방식으로 이미지를 받아서 디렉토리에 저장한다. 그리고 분석을 시작(predict()가 분석 시작 메소드)
+<img width="452" alt="스크린샷 2022-06-10 오후 2 03 09" src="https://user-images.githubusercontent.com/83891837/172993869-8a9c77dc-3895-401d-99b9-cc159ccd832a.png">
+
+### result/predict에 결과.jpg 와 결과.json파일이 
