@@ -24,3 +24,6 @@
 
 # 개발 
 https://github.com/KimTaeKang57/CapstoneProject/tree/master/lab/%EA%B0%9C%EB%B0%9C
+
+# 스택 (무료 Ec2 서버가 아닌 Naver Cloug Platform 유료 서버를 사용하였다.)
+<img width="637" alt="스크린샷 2022-06-10 오후 1 17 34" src="https://user-images.githubusercontent.com/83891837/172989394-77e0c6e8-288e-4f5f-91a6-07fc5c62f5b7.png">
