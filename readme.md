@@ -29,5 +29,5 @@
 - [(기능, 문제해결)AWS S3, Docker container간 파일 주고받기.md](https://github.com/KimTaeKang57/CapstoneProject/blob/master/lab/%EA%B0%9C%EB%B0%9C/%EA%B8%B0%EB%8A%A5/(%EA%B8%B0%EB%8A%A5%2C%20%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0)AWS%20S3%2C%20Docker%20container%EA%B0%84%20%ED%8C%8C%EC%9D%BC%20%EC%A3%BC%EA%B3%A0%EB%B0%9B%EA%B8%B0.md)
 - [(기능, 문제해결)Naver cloud Platform의 유료 Server 사용.md](https://github.com/KimTaeKang57/CapstoneProject/blob/master/lab/%EA%B0%9C%EB%B0%9C/%EA%B8%B0%EB%8A%A5/(%EA%B8%B0%EB%8A%A5%2C%20%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0)Naver%20cloud%20Platform%EC%9D%98%20%EC%9C%A0%EB%A3%8C%20Server%20%EC%82%AC%EC%9A%A9.md)
 
-# 스택 (무료 Ec2 서버가 아닌 Naver Cloug Platform 유료 서버를 사용하였다.)
+# 스택 (무료 Ec2 서버가 아닌 Naver Cloud Platform 유료 서버를 사용하였다.)
 <img width="637" alt="스크린샷 2022-06-10 오후 1 17 34" src="https://user-images.githubusercontent.com/83891837/172989394-77e0c6e8-288e-4f5f-91a6-07fc5c62f5b7.png">
