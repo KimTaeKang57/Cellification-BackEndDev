@@ -18,3 +18,15 @@ Stateful / Statleless (상태 / 무상태)
 
 Connectionless(비 연결성)
 - Client가 Server에 요청을 하고 응답을 받으면 바로 TCP/IP 연결을 끊어 연결을 유지 하지 않는 것이다. 
+
+# Socket 통신
+- Socket이란 두 프로그램이 서로 데이터를 주고 받을 수 있게 양쪽에 생성되는 통신 단자이다.
+<img width="561" alt="스크린샷 2022-06-15 오후 7 29 56" src="https://user-images.githubusercontent.com/83891837/173806463-3f3e465b-6acd-4247-9245-ce6304304158.png">
+
+### Socket 통신의 통신 방식
+- 소켓 통신이란 서버와 클라이언트가 서로에게 데이터 전달을 해 양방향 연결이 이루어지는 통신 (클라이언트도 서버로 요청을 보낼 수 있고 서버도 클라이언트로 요청을 보낼수 있음).
+- 보통 스트리밍, 실시간 채팅 등 데이터를 주고 받아야 하는 경우에 Connection을 자주 맺고 끊는 HTTP 통신보다 소켓 통신이 적합하다.
+- Socket은 Connection을 들고 있기 때문에 HTTP 보다 많은 리소스가 소모된다.
+
+
+### Socket 이란 무엇인가 ?
