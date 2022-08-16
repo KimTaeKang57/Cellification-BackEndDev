@@ -32,6 +32,7 @@
  
 인공지능
  - yolor
+ - torch
 
 # DB 명세
 User
