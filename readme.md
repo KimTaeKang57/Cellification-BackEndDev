@@ -31,13 +31,13 @@
 인공지능
  - yolor
 # DB 명세
-* User
+User
  - id : 유저 고유값
  - email : 이메일
  - name : 이름
  - userId : 아이디
  - encryptedPwd : 암호화된 비밀번호
-* Cell
+Cell
  - id : 세포 고유값
  - totalcell : 전체 세포
  - livecell : 살아있는 세포
