@@ -11,7 +11,7 @@
 - 이미지 분석 결과 저장(내부 저장소, DB) 
 - 이미지 분석 결과 
 
-# 기술 스택
+# 🖥 기술 스택
 - Micro Service Architecture 구조를 활용하여 독립적으로 배포가능한 서비스로 나누어 각각의 서비스를 Restful API로 데이터를 주고받음
 - Naver Cloud Platform 리눅스 서버에 각 서비스 배포
 - Docker Mariadb로 데이터 관리
@@ -20,7 +20,7 @@
 - 로그인 보안 향상 : JWT 토큰 사용
 - 이미지 객체 관리 : AWS S3 객체 스토리지
 
-# 개발 도구
+# 🔨 개발 도구
 프론트 엔드
  - Android
 
@@ -29,7 +29,7 @@
  - AWS S3 객체 스토리지
  - Naver Cloud Platform
  - Docker
- - 
+ 
 인공지능
  - yolor
 
