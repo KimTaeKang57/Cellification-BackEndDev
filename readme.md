@@ -40,6 +40,7 @@ User
  - name : 이름
  - userId : 아이디
  - encryptedPwd : 암호화된 비밀번호
+
 Cell
  - id : 세포 고유값
  - totalcell : 전체 세포
