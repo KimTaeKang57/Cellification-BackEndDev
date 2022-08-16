@@ -5,12 +5,47 @@
 기업 솔이 제안한 인공지능을 활용한 세포 계수 분석 앱 혹은 애플리케이션을 제작해달라는 산합협력 주제를 캡스톤 팀 주제로 선정하여 개발을 진행하였습니다. 살아있는 세포와 죽어있는 세포가 이리저리 퍼져있는 사진을 업로드하면, Cellification이 살아있는 세포와 죽어있는 세포를 딥러닝 기반의 인공지능으로 구분하여 살아있는 세포와 죽어있는 세포의 계수와 비율을 결과로 알려줍니다.
 
 # 기능 설명
-- 로그인 / 회원가입
+- 로그인 / 회원가입 / 회원탈퇴
 - 세포 원본 이미지 분석
 - 이미지 분석 결과 화면
 - 이미지 분석 결과 저장(내부 저장소, DB) 
-- 이미지 분설 결과 
+- 이미지 분석 결과 
 
+# 기술 스택
+- Micro Service Architecture 구조를 활용하여 독립적으로 배포가능한 서비스로 나누어 각각의 서비스를 Restful API로 데이터를 주고받음
+- Naver Cloud Platform 리눅스 서버에 각 서비스 배포
+- Docker Mariadb로 데이터 관리
+- Docker image, container
+- Restful API 서버 구현 : Spring Framework, Flask 사용
+- 로그인 보안 향상 : JWT 토큰 사용
+- 이미지 객체 관리 : AWS S3 객체 스토리지
+
+# 개발 도구
+프론트 엔드
+ - Android
+백엔드
+ - Spring Framework
+ - AWS S3 객체 스토리지
+ - Naver Cloud Platform
+ - Docker
+인공지능
+ - yolor
+# DB 명세
+* User
+ - id : 유저 고유값
+ - email : 이메일
+ - name : 이름
+ - userId : 아이디
+ - encryptedPwd : 암호화된 비밀번호
+* Cell
+ - id : 세포 고유값
+ - totalcell : 전체 세포
+ - livecell : 살아있는 세포
+ - deadcell : 죽은 세포
+ - viability : 전체 세포 중 살아있는 세포의 백분율
+ - url : 결과 이미지 저장 url
+ - userId : 세포 분석을 진행한 userId
+ 
 # 팀원
 | 팀원 | 역할 | 개발환경 
 |-----|-----|--------
