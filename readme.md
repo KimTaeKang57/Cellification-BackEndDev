@@ -23,13 +23,16 @@
 # 개발 도구
 프론트 엔드
  - Android
+
 백엔드
  - Spring Framework
  - AWS S3 객체 스토리지
  - Naver Cloud Platform
  - Docker
+ - 
 인공지능
  - yolor
+
 # DB 명세
 User
  - id : 유저 고유값
