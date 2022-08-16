@@ -27,7 +27,7 @@
 백엔드
  - Spring Framework
  - AWS S3 객체 스토리지
- - Naver Cloud Platform
+ - Naver Cloud Platform Linux Server
  - Docker
  
 인공지능
